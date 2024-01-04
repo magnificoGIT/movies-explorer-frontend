@@ -1,0 +1,59 @@
+/* Отмена стандартных стилей браузера для кнопок и стилизация повторяющихся*/
+button {
+  /* стили для отмены стандартного вида кнопок в разных браузерах */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Отмена стандартных стилей для списков */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стандартные стили для всех ссылок в проекте */
+a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Стандартный стиль цвета текста в проекте */
+.text {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Сброс стилей для всех инпутов в проекте */
+input {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

@@ -1,0 +1,119 @@
+.burger {
+  display: none;
+}
+
+.burger__button_type_open {
+  height: 44px;
+}
+
+.burger__link:hover {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fff;
+}
+
+@media screen and (max-width: 769px) {
+  .burger {
+    display: block;
+  }
+
+  .burger__menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(100%);
+    background-color: rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease-in-out, background-color 0.3s;
+  }
+
+  .burger__menu-active {
+    transform: translateX(0);
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s, background-color 1.5s;
+  }
+
+  .burger__menu__container {
+    top: 0;
+    background-color: #202020;
+    width: 520px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+
+  .burger__button_type_close {
+    display: flex;
+    align-self: flex-end;
+    width: 22px;
+    height: 22px;
+    margin-top: 22px;
+    margin-right: 22px;
+  }
+
+  .burger__icon_type_close {
+    width: 22px;
+    height: 22px;
+  }
+
+  .burger__menu-navigation {
+    max-width: 340px;
+    width: 100%;
+    height: 100vh;
+    margin: 105px auto 90px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .burger__lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .burger__link {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .burger__link-profile {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .burger__menu__container {
+    width: 100%;
+  }
+
+  .burger__button_type_open {
+    width: 40px;
+    height: 43px;
+  }
+
+  .burger__icon_type_open {
+    width: 40px;
+    height: 43px;
+  }
+
+  .burger__button_type_close {
+    margin-top: 13px;
+    margin-right: 13px;
+  }
+
+  .burger__menu-navigation {
+    margin: 99px auto 46px auto;
+  }
+
+  .burger__lists {
+    gap: 24px;
+  }
+}
