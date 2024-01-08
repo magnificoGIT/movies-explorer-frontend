@@ -25,7 +25,7 @@
 .profile__form-container {
   margin: 0;
   padding: 0;
-  margin-bottom: 220px;
+  padding-bottom: 220px;
   display: flex;
   flex-direction: column;
   gap: 17px;
@@ -40,6 +40,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  color: #FFF;
 }
 
 .profile__label:first-child {
@@ -82,7 +83,7 @@
   }
 
   .profile__form-container {
-    margin-bottom: 210px;
+    padding-bottom: 210px;
   }
 
   .profile__title {
@@ -101,7 +102,7 @@
   }
 
   .profile__form-container {
-    margin-bottom: 379px;
+    padding-bottom: 379px;
   }
 
   .profile__input {

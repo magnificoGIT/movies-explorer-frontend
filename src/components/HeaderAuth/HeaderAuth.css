@@ -1,9 +1,15 @@
-.header-auth__container_type_grey {
+.header-auth {
+  width: 100%;
+}
+
+.header-auth_grey {
   background-color: #202020;
 }
 
 .header-auth__container {
   gap: 45px;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .header__navigation {
@@ -16,40 +22,6 @@
   display: flex;
   align-items: center;
   gap: 16px;
-}
-
-.header__button-link_type_auth {
-  margin: 0;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 18px;
-}
-
-.header__button-link_type_auth-account {
-  display: flex;
-  gap: 7px;
-  align-items: center;
-  border-radius: 40px;
-  box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.08);
-}
-
-.header__container-icon {
-  width: 26px;
-  height: 26px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  background-color: #0f4157;
-}
-
-.header__container-icon_color_grey {
-  background-color: #313131;
-}
-
-.header__icon-profile {
-  width: 12px;
-  height: 12px;
 }
 
 @media screen and (max-width: 769px) {

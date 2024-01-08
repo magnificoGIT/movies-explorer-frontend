@@ -1,13 +1,11 @@
 .search-form {
-  padding: 0 70px;
+  padding: 60px 70px;
   margin-bottom: 10px;
-  border-bottom: 1px solid;
-  border-color: #424242;
 }
 
 .search-form__container {
-  margin: 60px auto 41px auto;
   max-width: 1140px;
+  margin: 0 auto 41px auto;
   min-height: 46px;
   display: flex;
   gap: 46px;

@@ -46,6 +46,8 @@
 
 @import url(./components/PageNotFound/PageNotFound.css);
 
+@import url(./components/ProfileLink/ProfileLink.css);
+
 /* * {
   outline: 1px solid yellow;
 } */
@@ -59,8 +61,8 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  margin: 0;
   background-color: #202020;
-  margin: 0 auto;
 }
 
 /* Для плавной прокрутки к секции при клике ссылок в навигации NavBar */

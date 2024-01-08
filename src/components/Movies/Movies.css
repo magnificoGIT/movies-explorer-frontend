@@ -1,6 +1,9 @@
 .movies {
+  max-width: 1280px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .movies__button {
@@ -31,7 +34,7 @@
 
 @media screen and (max-width: 750px) {
   .movies__button {
-    margin: 61px auto 89px auto;
+    margin-top: 61px;
     width: calc(100% - 20px);
   }
 }

@@ -10,14 +10,14 @@
   align-items: center;
 }
 
-.nav-tab__list {
+.nav-tab__lists {
   display: flex;
   flex-direction: row;
   gap: 40px;
   min-height: 18px;
 }
 
-.nav-tab__links {
+.nav-tab__link {
   display: flex;
 }
 

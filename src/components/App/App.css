@@ -1,4 +1,6 @@
 .App {
-  margin: 0 auto;
-  background-color: #202020;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", Arial, sans-serif;
 }

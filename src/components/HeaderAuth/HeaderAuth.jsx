@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import logoHeader from "../../images/logo_header.svg";
-import iconProfile from "../../images/header__icon-man.svg";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import ProfileLink from "../ProfileLink/ProfileLink";
 
 export default function HeaderAuth() {
   const location = useLocation();
@@ -13,7 +13,7 @@ export default function HeaderAuth() {
   return (
     <header
       className={`header header-auth ${
-        isMoviesOrSavedMovies ? "header-auth__container_type_grey" : ""
+        isMoviesOrSavedMovies ? "header-auth_grey" : ""
       }`}
     >
       <div className="header__container header-auth__container">
@@ -40,23 +40,7 @@ export default function HeaderAuth() {
               Сохранённые фильмы
             </Link>
           </div>
-          <Link
-            to="/profile"
-            className="header__button-link header__button-link_type_auth header__button-link_type_auth-account"
-          >
-            Аккаунт
-            <div
-              className={`header__container-icon ${
-                isMoviesOrSavedMovies ? "header__container-icon_color_grey" : ""
-              }`}
-            >
-              <img
-                src={iconProfile}
-                alt="Белая иконка силуэта лица и шеи человека"
-                className="header__icon-profile"
-              />
-            </div>
-          </Link>
+          <ProfileLink isMoviesOrSavedMovies={isMoviesOrSavedMovies}/>
         </nav>
       </div>
     </header>

@@ -4,14 +4,14 @@ import Portfolio from "../Portfolio/Portfolio";
 export default function AboutMe() {
   return (
     <section className="about-me" id="about-me">
-      <h2 className="text project__title">Студент</h2>
+      <h2 className="about-me__title">Студент</h2>
       <div className="about-me__container">
         <div className="about-me__block">
-          <h3 className="text about-me__title">Игорь</h3>
-          <p className="text about-me__subtitle">
+          <h3 className="about-me__name">Игорь</h3>
+          <p className="about-me__subtitle">
             Фронтенд-разработчик, 24 года
           </p>
-          <p className="text about-me__paragraph">
+          <p className="about-me__paragraph">
             Я родился и живу в Калининграде, обучался в академии РАНХиГС по
             специальности таможенное дело. Увлекаюсь урбанизацией, архитектурой
             и технологиями. Недавно начал кодить. Люблю погружаться в новые и
@@ -20,7 +20,7 @@ export default function AboutMe() {
           </p>
           <a
             target="blank"
-            className="link text about-me__link"
+            className="about-me__link"
             href="https://github.com/magnificoGIT"
           >
             Github

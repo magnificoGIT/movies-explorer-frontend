@@ -36,7 +36,7 @@
     transition: transform 0.4s, background-color 1.5s;
   }
 
-  .burger__menu__container {
+  .burger__menu-container {
     top: 0;
     background-color: #202020;
     width: 520px;
@@ -67,6 +67,7 @@
     margin: 105px auto 90px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: column;
   }
 
@@ -90,7 +91,7 @@
 }
 
 @media screen and (max-width: 620px) {
-  .burger__menu__container {
+  .burger__menu-container {
     width: 100%;
   }
 

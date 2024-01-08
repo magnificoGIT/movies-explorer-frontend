@@ -4,7 +4,7 @@ export default function SearchForm() {
   return (
     <form className="search-form">
       <div className="search-form__container">
-        <input className="search-form__input-films" placeholder="Фильм" />
+        <input className="search-form__input-films" placeholder="Фильм" type="text" required/>
         <button className="search-form__button-find">
           <img
             className="search-form__icon-find"

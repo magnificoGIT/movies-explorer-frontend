@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import iconProfile from "../../images/header__icon-man.svg";
 import burgerOpenButton from "../../images/burger_button.svg";
 import burgerCloseButton from "../../images/burger-menu_icon-close.svg";
 import { useState } from "react";
+import ProfileLink from "../ProfileLink/ProfileLink";
 
 export default function BurgerMenu() {
   const [menuIsActive, setMenuIsActive] = useState(false);
@@ -34,7 +34,7 @@ export default function BurgerMenu() {
             menuIsActive ? "burger__menu-active" : ""
           }`}
         >
-          <div className="burger__menu__container">
+          <div className="burger__menu-container">
             <button
               className="burger__button burger__button_type_close"
               onClick={closeMenu}
@@ -63,19 +63,7 @@ export default function BurgerMenu() {
                   </Link>
                 </li>
               </ul>
-              <Link
-                to="/profile"
-                className="header__button-link header__button-link_type_auth header__button-link_type_auth-account burger__link-profile"
-              >
-                Аккаунт
-                <div className="header__container-icon header__container-icon_color_grey">
-                  <img
-                    src={iconProfile}
-                    alt="Белая иконка силуэта лица и шеи человека"
-                    className="header__icon-profile"
-                  />
-                </div>
-              </Link>
+              <ProfileLink menuIsActive={menuIsActive} closeMenu={closeMenu}/>
             </nav>
           </div>
         </div>
