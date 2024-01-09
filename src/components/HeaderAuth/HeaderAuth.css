@@ -1,0 +1,31 @@
+.header-auth {
+  width: 100%;
+}
+
+.header-auth_grey {
+  background-color: #202020;
+}
+
+.header-auth__container {
+  gap: 45px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.header__navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-auth__container-movies {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (max-width: 769px) {
+  .header__navigation {
+    display: none;
+  }
+}
