@@ -6,7 +6,7 @@ export default function Profile() {
       <Header />
       <section className="profile">
         <div className="profile__container">
-          <h2 className="text profile__title">Привет, Виталий!</h2>
+          <h2 className="profile__title">Привет, Виталий!</h2>
           <form className="profile__form">
             <fieldset className="profile__form-container">
               <label className="profile__label">

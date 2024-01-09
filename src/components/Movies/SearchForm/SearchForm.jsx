@@ -22,7 +22,7 @@ export default function SearchForm() {
       >
         <input className="search-form__invisible-checkbox" type="checkbox" />
         <span className="search-form__visible-checkbox"></span>
-        <p className="text search-form__title">Короткометражки</p>
+        <p className="search-form__title">Короткометражки</p>
       </label>
     </form>
   );

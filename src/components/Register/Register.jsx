@@ -12,7 +12,7 @@ export default function Register() {
             alt="Белый логотип улыбающийся смайлик"
           />
         </Link>
-        <h2 className="text register-login__title">Добро пожаловать!</h2>
+        <h2 className="register-login__title">Добро пожаловать!</h2>
         <form className="register-login__form">
           <fieldset className="register-login__form-container">
             <label className="register-login__label">
@@ -52,7 +52,7 @@ export default function Register() {
             <button className="register-login__button">
               Зарегистрироваться
             </button>
-            <p className="text register-login__paragraph">
+            <p className="register-login__paragraph">
               Уже зарегистрированы?
               <Link to="/signin" className="register-login__link">
                 Войти

@@ -2,17 +2,17 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__content">
-        <p className="text footer__title">
+        <p className="footer__title">
           Учебный проект Яндекс.Практикум х BeatFilm.
         </p>
         <div className="footer__container">
-          <p className="text footer__subtitle">© 2020</p>
+          <p className="footer__subtitle">© 2020</p>
           <ul className="footer__list">
             <li className="footer__lists">
               <a
                 target="blank"
                 href="https://practicum.yandex.ru/frontend-developer/?from=catalog"
-                className="text footer__subtitle"
+                className="footer__subtitle"
               >
                 Яндекс.Практикум
               </a>
@@ -21,7 +21,7 @@ export default function Footer() {
               <a
                 target="blank"
                 href="https://github.com/magnificoGIT"
-                className="text footer__subtitle"
+                className="footer__subtitle"
               >
                 Github
               </a>

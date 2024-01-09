@@ -20,7 +20,7 @@ export default function MoviesCard() {
         />
       </a>
       <div className="movies-card__container">
-        <h2 className="text movies-card__title">33 слова о дизайне</h2>
+        <h2 className="movies-card__title">33 слова о дизайне</h2>
         {location.pathname === "/saved-movies" && (
           <button className="movies-card__button movies-card__button_type_delete">
             <img
@@ -35,7 +35,7 @@ export default function MoviesCard() {
           </button>
         )}
       </div>
-      <p className="text movies-card__duration">1ч 47м</p>
+      <p className="movies-card__duration">1ч 47м</p>
     </div>
   );
 }
