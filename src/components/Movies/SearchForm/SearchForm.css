@@ -1,6 +1,5 @@
 .search-form {
-  padding: 60px 70px;
-  margin-bottom: 10px;
+  padding: 60px 70px 10px 70px;
 }
 
 .search-form__container {
@@ -90,13 +89,13 @@
   line-height: 18px;
 }
 
+.search-form__border-bottom {
+  border-bottom: 1px solid #424242;
+}
+
 @media screen and (max-width: 850px) {
   .search-form {
-    padding: 0 30px;
-  }
-
-  .search-form__container {
-    margin-top: 80px;
+    padding: 80px 30px 10px 30px;
   }
 
   .search-form__container-checkbox {
@@ -106,7 +105,7 @@
 
 @media screen and (max-width: 750px) {
   .search-form {
-    padding: 0 14px;
+    padding: 80px 14px 10px 14px;
   }
 
   .search-form__input-films {

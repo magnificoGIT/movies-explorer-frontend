@@ -24,6 +24,7 @@ export default function SearchForm() {
         <span className="search-form__visible-checkbox"></span>
         <p className="search-form__title">Короткометражки</p>
       </label>
+      <div className="search-form__border-bottom"></div>
     </form>
   );
 }
